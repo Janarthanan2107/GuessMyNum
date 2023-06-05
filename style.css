@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    background-color: #282828;
+    color: gray;
+}
+
+.btn {
+    background-color: gray;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    display: block;
+}
+
+.section-one {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-two h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.random-num-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-num {
+    margin-top: -50px;
+    font-size: 50px;
+    padding: 30px;
+    background-color: gray;
+    border-radius: 6px;
+    color: black;
+}
+
+.section-three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box {
+    padding: 30px;
+    width: 8rem;
+    font-size: 2rem;
+    background-color: inherit;
+    border: 1px solid white;
+    color: gray;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.message{
+    font-size: 2rem;
+}
+
+.score-container {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
